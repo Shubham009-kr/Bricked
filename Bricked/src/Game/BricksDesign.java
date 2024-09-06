@@ -23,7 +23,7 @@ public class BricksDesign {
 		for(int i=0; i<map.length; i++) {
 			for(int j=0; j<map[0].length; j++) {
 				if(map[i][j]>0) {
-					g.setColor(Color.green);
+					g.setColor(Color.yellow);
 					g.fillRect(j*bWidth + 80, i*bHeight+50, bWidth, bHeight);  // Draws bricks.
 					// Upto here there will be only one large brick. We have to re-paint the brick by applying stroke to it 
 					// so as to differentiate the bricks.
